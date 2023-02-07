@@ -1,0 +1,6 @@
+1. Permission represent what rights a user has to a given file
+2. They can be numeric 400 or symbolic 
+    * one for user
+    * one for group
+    * one for others
+    eg ( rwxr - xr- x )

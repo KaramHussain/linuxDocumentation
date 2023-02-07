@@ -1,0 +1,32 @@
+1-  When system starts up or boots up it goes through a 
+    process where the kernel is loaded and then software called 
+    intialization system or System Manager takes our and start 
+    programs to get the system to a state where we can interact
+    with it.
+
+2-  The shell is software we use to type commands and view 
+    returned text
+
+3-  Popular shells include Bash , Zsh , csh , fish, and ksh
+
+4-  A shell can run inside of a terminal emulator in a gui or 
+    in text mode as a console
+
+5-  GNU coreutils: These are the commands that are used to interact
+    with the hardware through kernels 
+    COMMANDS: cp mv chmod
+
+6-  GNU coreutils is located in User Space
+
+7-  BusyBox is a userspace software which include commands as GNU coreutils
+    and some other tools as well
+
+8-  Different distro comes with different tools and configuration
+    like Ubuntu comes with Netplan for network
+    And Fedora and RedHat used network manager instead.
+
+9-  you can see you distribution using the following commands
+    # cat /etc/*release
+
+10- you can also see which kernel your distro is using
+    # uname -a
